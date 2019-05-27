@@ -29,18 +29,22 @@ namespace ConvolutionWpf.Commands
             //int index = j * image.BackBufferStride + 4 * i;
             //todo
             var histogram = new Int32[256];
+            var histogram2 = new Int32[256];
             var cumHistogram = histogram;
             var p = 0.005;
-            var numPixel = image.PixelHeight * image.PixelWidth;
+            var numPixel = image.PixelHeight * image.PixelWidth * 3;
             var alphaLow = 0;
             var alphaHigh = 255;
 
-            for (int i = 0; i < image.PixelHeight - 3; i++)
+            for (int i = 0; i < image.PixelHeight; i++)
             {
-                for (int j = 0; j < image.PixelWidth - 3; j++)
+                for (int j = 0; j < image.PixelWidth; j++)
                 {
-                    int index = i * image.BackBufferStride + 4 * j + 3;
-                    histogram[pixels[index]] += 1;
+                    for (int c = 0; c < 3; c++)
+                    {
+                        int index = i * image.BackBufferStride + 4 * j;
+                        histogram[pixels[index + c]] += 1;
+                    }
                 }
             }
 
@@ -63,7 +67,7 @@ namespace ConvolutionWpf.Commands
                 if (cumHistogram[i] <= numPixel * (1 - p))
                 {
                     alphaHigh = i;
-                    break;
+                    break ;
                 }
             }
 
@@ -75,24 +79,26 @@ namespace ConvolutionWpf.Commands
 
                     for (int c = 0; c < 3; c++)
                     {
-                        resultPixels[index + c] = pixels[index + c];
+
+                        if (pixels[index + c] <= alphaLow)
+                        {
+                            resultPixels[index + c] = 0;
+                        }
+                        else if (pixels[index + c] >= alphaHigh)
+                        {
+                            resultPixels[index + c] = 255;
+                        }
+                        else
+                        {
+                            resultPixels[index + c] = (byte)((double)(pixels[index + c] - alphaLow) / (alphaHigh - alphaLow) * 255);
+                        }
                     }
-                    if (pixels[index + 3] <= alphaLow)
-                    {
-                        resultPixels[index + 3] = 0;
-                    }
-                    else if (pixels[index + 3] >= alphaHigh)
-                    {
-                        resultPixels[index + 3] = 255;
-                    }
-                    else
-                    {
-                        resultPixels[index + 3] = (byte)((pixels[index + 3] - alphaLow) / ((alphaHigh - alphaLow) * 255));
-                    }
+                    resultPixels[index + 3] = pixels[index + 3];
                 }
             }
 
             image.WritePixels(new Int32Rect(0, 0, image.PixelWidth, image.PixelHeight), resultPixels, image.BackBufferStride, 0);
+
         }
 
         protected override void Execute(object parameter, bool ignoreCanExecuteCheck)
