@@ -29,27 +29,33 @@ namespace ConvolutionWpf.Commands
             //int index = j * image.BackBufferStride + 4 * i;
             //todo
 
-            int kernel = 5;
+            int kernel = 3;
 
-            for (int i = 0; i < image.PixelWidth - kernel; i++)
+            for (int i = kernel / 2; i < image.PixelWidth - kernel / 2; i++)
             {
-                for (int j = 0; j < image.PixelHeight - kernel; j++)
+                for (int j = kernel / 2; j < image.PixelHeight - kernel / 2; j++)
                 {
                     int index = j * image.BackBufferStride + 4 * i;
                     
                     for (int c = 0; c < 3; c++)
                     {
                         int blurPixel = 0;
-                        for (int m = 0; m < kernel; m++)
+
+                        // for blur: pixels[index + c] * 1 + pixels[index + c - 4] * (1) + pixels[index + c + 4] * (1)
+                        // +pixels[index + c - image.BackBufferStride] * (1) + pixels[index + c + image.BackBufferStride] * (1);
+                        blurPixel = pixels[index + c] * 5 + pixels[index + c - 4] * (-1) + pixels[index + c + 4] * (-1)
+                            + pixels[index + c - image.BackBufferStride] * (-1) + pixels[index + c + image.BackBufferStride] * (-1);
+                        if (blurPixel < 0)
                         {
-                            for (int n = 0; n < kernel; n++)
-                            {
-                                blurPixel += pixels[index + c + n * 4 + m * image.BackBufferStride];
-                            }
+                            blurPixel = 0;
                         }
-                        resultPixels[index + c] = (byte)(blurPixel / (kernel * kernel));
+                        else if (blurPixel > 255)
+                        {
+                            blurPixel = 255;
+                        }
+                        resultPixels[index + c] = (byte)(blurPixel); // for blur: (byte)(blurPixel / 5)
                     }
-                    resultPixels[index + 3] = resultPixels[index + 3];
+                    resultPixels[index + 3] = pixels[index + 3];
                 }
             }
 

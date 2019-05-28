@@ -55,14 +55,7 @@ namespace ConvolutionWpf.Commands
                 }
             }
 
-            if (isHorizontalFlip)
-            {
-                isHorizontalFlip = false;
-            }
-            else
-            {
-                isHorizontalFlip = true;
-            }
+            isHorizontalFlip = !isHorizontalFlip;
         
             image.WritePixels(new Int32Rect(0, 0, image.PixelWidth, image.PixelHeight), resultPixels, image.BackBufferStride, 0);
         }

@@ -28,8 +28,8 @@ namespace ConvolutionWpf.Commands
 
             //int index = j * image.BackBufferStride + 4 * i;
             //todo
-            var histogram = new Int32[256];
-            var histogram2 = new Int32[256];
+            var histogram = new int[256];
+            var histogram2 = new int[256];
             var cumHistogram = histogram;
             var p = 0.005;
             var numPixel = image.PixelHeight * image.PixelWidth * 3;
