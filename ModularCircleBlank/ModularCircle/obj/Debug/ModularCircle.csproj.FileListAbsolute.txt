@@ -1,0 +1,15 @@
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\bin\Debug\ModularCircle.exe.config
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\bin\Debug\ModularCircle.exe
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\bin\Debug\ModularCircle.pdb
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.csprojAssemblyReference.cache
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\MainWindow.g.cs
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\App.g.cs
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle_MarkupCompile.cache
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle_MarkupCompile.lref
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\MainWindow.baml
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.g.resources
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.Properties.Resources.resources
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.csproj.GenerateResource.cache
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.csproj.CoreCompileInputs.cache
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.exe
+C:\Users\Uchotka1\Pictures\Challenge\Challenge\ModularCircleBlank\ModularCircle\obj\Debug\ModularCircle.pdb
