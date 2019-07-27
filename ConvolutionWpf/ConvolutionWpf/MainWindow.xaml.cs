@@ -1,4 +1,7 @@
-﻿using Window = Catel.Windows.Window;
+﻿using System;
+using System.Linq;
+using System.Text;
+using Window = Catel.Windows.Window;
 
 namespace ConvolutionWpf
 {
