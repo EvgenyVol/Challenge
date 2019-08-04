@@ -9,6 +9,7 @@ namespace ComplexNumber
     class ComplexNumber
     {
         float Re;
+
         float Im;
 
         public ComplexNumber(float re, float im)
@@ -33,10 +34,35 @@ namespace ComplexNumber
             Re -= re;
             Im -= im;
         }
+
         public void MultiplyComplexNumber(float re, float im)
         {
             Re *= re;
             Im *= im;
+        }
+
+        public static ComplexNumber operator +(ComplexNumber a, ComplexNumber b)
+        {
+            a.Re = a.Re + b.Re;
+            a.Im = a.Im + b.Im;
+
+            return a;
+        }
+
+        public static ComplexNumber operator -(ComplexNumber a, ComplexNumber b)
+        {
+            a.Re = a.Re - b.Re;
+            a.Im = a.Im - b.Im;
+
+            return a;
+        }
+
+        public static ComplexNumber operator *(ComplexNumber a, ComplexNumber b)
+        {
+            a.Re = a.Re * b.Re;
+            a.Im = a.Im * b.Im;
+
+            return a;
         }
     }
 }

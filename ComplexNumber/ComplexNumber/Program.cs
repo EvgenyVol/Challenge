@@ -22,6 +22,15 @@ namespace ComplexNumber
             num.MultiplyComplexNumber(2, 2);
             ComplexNumber.PrintComplexNumber(num);
 
+            Console.WriteLine("* * * Part 2 - Operator Overloading * * *");
+            ComplexNumber newNum = new ComplexNumber(5, 7);
+            newNum = newNum + num;
+            ComplexNumber.PrintComplexNumber(newNum);
+            newNum = newNum - num;
+            ComplexNumber.PrintComplexNumber(newNum);
+            newNum = newNum * num;
+            ComplexNumber.PrintComplexNumber(newNum);
+
             Console.ReadKey();
         }
     }
