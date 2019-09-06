@@ -11,6 +11,7 @@ namespace LinqLibrary
         Business,
         Marketing,
         Fantasy,
-        Classic
+        Classic,
+        Саморазвитие
     }
 }

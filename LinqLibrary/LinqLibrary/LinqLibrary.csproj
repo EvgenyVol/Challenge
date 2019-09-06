@@ -46,6 +46,7 @@
     <Compile Include="City.cs" />
     <Compile Include="District.cs" />
     <Compile Include="Edition.cs" />
+    <Compile Include="History.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="LibraryVisitor.cs" />
     <Compile Include="Program.cs" />
