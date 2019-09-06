@@ -165,49 +165,49 @@ namespace LinqLibrary
             var h6 = new History() { VisitorId = v2.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 1) };
             var h7 = new History() { VisitorId = v2.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 7) };
             var h8 = new History() { VisitorId = v2.Id, BookItemId = bi27.Id, LibraryId = l3.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 16) };
-            var h8 = new History() { VisitorId = v3.Id, BookItemId = bi39.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 1) };
-            var h8 = new History() { VisitorId = v3.Id, BookItemId = bi39.Id, LibraryId = l6.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 15) };
-            var h8 = new History() { VisitorId = v3.Id, BookItemId = bi43.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 15) };
-            var h8 = new History() { VisitorId = v3.Id, BookItemId = bi43.Id, LibraryId = l6.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 30) };
-            var h8 = new History() { VisitorId = v3.Id, BookItemId = bi42.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v5.Id, BookItemId = bi25.Id, LibraryId = l3.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 2) };
-            var h8 = new History() { VisitorId = v5.Id, BookItemId = bi25.Id, LibraryId = l3.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 10) };
-            var h8 = new History() { VisitorId = v5.Id, BookItemId = bi26.Id, LibraryId = l3.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 10) };
-            var h8 = new History() { VisitorId = v5.Id, BookItemId = bi26.Id, LibraryId = l3.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 20) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi11.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi12.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi13.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi11.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi12.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi13.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi23.Id, LibraryId = l2.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v6.Id, BookItemId = bi23.Id, LibraryId = l2.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 25) };
-            var h8 = new History() { VisitorId = v7.Id, BookItemId = bi7.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 3) };
-            var h8 = new History() { VisitorId = v7.Id, BookItemId = bi7.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 13) };
-            var h8 = new History() { VisitorId = v7.Id, BookItemId = bi14.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v7.Id, BookItemId = bi14.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 20) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi1.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 7) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 7) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi1.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 27) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 27) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi21.Id, LibraryId = l2.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi21.Id, LibraryId = l2.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 10) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
-            var h8 = new History() { VisitorId = v8.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 25) };
-            var h8 = new History() { VisitorId = v9.Id, BookItemId = bi33.Id, LibraryId = l4.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 2) };
-            var h8 = new History() { VisitorId = v9.Id, BookItemId = bi33.Id, LibraryId = l4.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 12) };
-            var h8 = new History() { VisitorId = v9.Id, BookItemId = bi29.Id, LibraryId = l4.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
-            var h8 = new History() { VisitorId = v9.Id, BookItemId = bi29.Id, LibraryId = l4.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 10) };
-            var h8 = new History() { VisitorId = v10.Id, BookItemId = bi34.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 10) };
-            var h8 = new History() { VisitorId = v10.Id, BookItemId = bi34.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 20) };
-            var h8 = new History() { VisitorId = v10.Id, BookItemId = bi37.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 2) };
-            var h8 = new History() { VisitorId = v10.Id, BookItemId = bi37.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 12) };
-            var h8 = new History() { VisitorId = v10.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 26) };
+            var h9 = new History() { VisitorId = v3.Id, BookItemId = bi39.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 1) };
+            var h10 = new History() { VisitorId = v3.Id, BookItemId = bi39.Id, LibraryId = l6.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 15) };
+            var h11 = new History() { VisitorId = v3.Id, BookItemId = bi43.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 15) };
+            var h12 = new History() { VisitorId = v3.Id, BookItemId = bi43.Id, LibraryId = l6.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 30) };
+            var h13 = new History() { VisitorId = v3.Id, BookItemId = bi42.Id, LibraryId = l6.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
+            var h14 = new History() { VisitorId = v5.Id, BookItemId = bi25.Id, LibraryId = l3.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 2) };
+            var h15 = new History() { VisitorId = v5.Id, BookItemId = bi25.Id, LibraryId = l3.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 10) };
+            var h16 = new History() { VisitorId = v5.Id, BookItemId = bi26.Id, LibraryId = l3.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 10) };
+            var h17 = new History() { VisitorId = v5.Id, BookItemId = bi26.Id, LibraryId = l3.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 20) };
+            var h18 = new History() { VisitorId = v6.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h19 = new History() { VisitorId = v6.Id, BookItemId = bi11.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h20 = new History() { VisitorId = v6.Id, BookItemId = bi12.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h21 = new History() { VisitorId = v6.Id, BookItemId = bi13.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h22 = new History() { VisitorId = v6.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
+            var h23 = new History() { VisitorId = v6.Id, BookItemId = bi11.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
+            var h24 = new History() { VisitorId = v6.Id, BookItemId = bi12.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
+            var h25 = new History() { VisitorId = v6.Id, BookItemId = bi13.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 15) };
+            var h26 = new History() { VisitorId = v6.Id, BookItemId = bi23.Id, LibraryId = l2.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
+            var h27 = new History() { VisitorId = v6.Id, BookItemId = bi23.Id, LibraryId = l2.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 25) };
+            var h28 = new History() { VisitorId = v7.Id, BookItemId = bi7.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 3) };
+            var h29 = new History() { VisitorId = v7.Id, BookItemId = bi7.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 13) };
+            var h30 = new History() { VisitorId = v7.Id, BookItemId = bi14.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h31 = new History() { VisitorId = v7.Id, BookItemId = bi14.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 20) };
+            var h32 = new History() { VisitorId = v8.Id, BookItemId = bi1.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 7) };
+            var h33 = new History() { VisitorId = v8.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 7) };
+            var h34 = new History() { VisitorId = v8.Id, BookItemId = bi1.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 27) };
+            var h35 = new History() { VisitorId = v8.Id, BookItemId = bi10.Id, LibraryId = l1.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 27) };
+            var h36 = new History() { VisitorId = v8.Id, BookItemId = bi21.Id, LibraryId = l2.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h37 = new History() { VisitorId = v8.Id, BookItemId = bi21.Id, LibraryId = l2.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 10) };
+            var h38 = new History() { VisitorId = v8.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 15) };
+            var h39 = new History() { VisitorId = v8.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 25) };
+            var h40 = new History() { VisitorId = v9.Id, BookItemId = bi33.Id, LibraryId = l4.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 2) };
+            var h41 = new History() { VisitorId = v9.Id, BookItemId = bi33.Id, LibraryId = l4.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 12) };
+            var h42 = new History() { VisitorId = v9.Id, BookItemId = bi29.Id, LibraryId = l4.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 1) };
+            var h43 = new History() { VisitorId = v9.Id, BookItemId = bi29.Id, LibraryId = l4.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 10) };
+            var h44 = new History() { VisitorId = v10.Id, BookItemId = bi34.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 8, 10) };
+            var h45 = new History() { VisitorId = v10.Id, BookItemId = bi34.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 8, 20) };
+            var h46 = new History() { VisitorId = v10.Id, BookItemId = bi37.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 2) };
+            var h47 = new History() { VisitorId = v10.Id, BookItemId = bi37.Id, LibraryId = l5.Id, VisitorAction = "put", Date = new DateTime(2019, 9, 12) };
+            var h48 = new History() { VisitorId = v10.Id, BookItemId = bi38.Id, LibraryId = l5.Id, VisitorAction = "take", Date = new DateTime(2019, 9, 26) };
 
             // all library visitors 
-            Console.WriteLine("Show all library visitors\n");
+            Console.WriteLine("Show all library visitors:\n");
             var libVisitors = from l in libraries
                               join lv in libraryVisitors on l.Id equals lv.LibraryId
                               join v in visitors on lv.VisitorId equals v.Id
@@ -216,6 +216,24 @@ namespace LinqLibrary
             foreach (var lv in libVisitors)
             {
                 Console.WriteLine($"{lv.Library.Name} {lv.Visitor.Name} {lv.Visitor.LastName}");
+            }
+            
+            // all library names
+            Console.WriteLine("\nShow all Library Name:\n");
+            var libNames = from lib in libraries
+                          select lib.Name;
+            foreach (var ln in libNames)
+            {
+                Console.WriteLine($"LibraryName = {ln}");
+            }
+            
+            // all district names
+            Console.WriteLine("\nShow all District Name:\n");
+            var districtNames = from dis in districts
+                select dis;
+            foreach (var dn in districtNames)
+            {
+                Console.WriteLine(dn.Name);
             }
 
             Console.ReadKey();
